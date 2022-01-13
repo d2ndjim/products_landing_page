@@ -30,3 +30,8 @@
 .input-email{
    max-width: 15rem !important;
 }
+
+.content-icon {
+    height: 2rem;
+    width: 2rem;
+}
