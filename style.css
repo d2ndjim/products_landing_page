@@ -1,0 +1,81 @@
+.page-wrapper{
+    background-color: #eee;
+}
+.logo {
+    padding: 1rem;
+    left: 0!important;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    /* justify-content: space-around; */
+    z-index: 5;
+    top: 0;
+    width: 100rem !important;
+    padding: 0 5rem !important;
+    background-color: #eee;
+   
+}
+.nav{
+    margin-left: 15rem !important;
+    display: flex;
+    justify-content: space-around;
+}
+.section-one{
+    display: flex;
+    margin-top: 4rem !important;
+    justify-content: center;
+}
+.input-email{
+   max-width: 15rem !important;
+   
+}
+.space{
+    margin-top: 3rem;
+}
+
+.content-icon {
+    height: 2rem;
+    width: 2rem;
+}
+.vid{
+    height: 40rem;
+    padding-top: 5rem;
+    padding-left: 25rem  !important;
+}
+.video-cont{
+    width: 40rem;
+}
+.text-centered{
+    text-align: center;
+}
+.card-header{
+    background-color: grey !important;
+    color: black !important;
+    text-align: center !important;
+}
+.card-body{
+    background-color: #eee !important;
+}
+.footer{
+    background-color: rgb(143, 143, 143);    
+    text-align: right !important;
+    display: flex;
+    justify-content: end;
+    
+}
+.list{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.list>li{
+    padding-right: 4rem !important;
+    
+    font-size: 1rem;
+}
+.list>li>a{
+    color: black !important;    
+}
+.footer>.row>ul{
+    list-style-type: none ;
+}

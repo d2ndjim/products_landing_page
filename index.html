@@ -1,11 +1,283 @@
 <!Doctype html>
 <html>
-    <head>
-        <title>Product landing page</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
 
-    <body>
+<head>
+    <title>Product landing page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    </body>
+<body>
+    <div class="page-wrapper">
+        <header id="header" class="nav-bar ">
+            <div class="ui medium logo image ">
+                <img id="header-img" src="images/logo.png" alt="">
+            </div>
+
+            <nav id="nav-bar" class="ui text right nav  menu">
+                <!-- change styling -->
+
+
+                <a class="item nav-link" href="#features">Features</a>
+
+                <a class="item nav-link" href="#how-it-works">How it works</a>
+
+                <a class="item nav-link" href="#pricing">Pricing</a>
+
+
+            </nav>
+
+        </header>
+        <div class="ui container section-one column grid">
+            <div class="row">
+                <h2>Handcrafted, home-made masterpieces</h2>
+            </div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div class="row ui input-email input">
+
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" />
+
+
+                </div>
+                <div class="ui space row">
+                    <button class="ui yellow button" type="submit" id="submit">Get Started</button>
+                </div>
+            </form>
+
+            <section id="features" class="ui container">
+                <div class="ui two column centered grid">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="content-icon" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class="ui column">
+                            <h2>Premium Materials</h2>
+                            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the
+                                longevity of your purchase.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui two column centered grid">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="content-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                        </svg>
+                        <div class="ui column">
+                            <h2>Fast Shipping</h2>
+                            <p>We make sure you recieve your trombone as soon as we have finished making it. We also
+                                provide
+                                free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui two column centered grid">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="content-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <div class="ui column">
+                            <h2>Quality Assurance</h2>
+                            <p>For every purchase you make, we will ensure there are no damages or faults and we will
+                                check
+                                and test the pitch of your instrument.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="ui container vid">
+                <iframe id="video" height="315" class="video-cont"
+                    src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="pricing" class="ui grid container">
+                <div class="ui five wide column">
+
+                    <div class="ui card">
+                        <div class="content card-header">
+                            <div class="header ">TENOR TROMBONE</div>
+                        </div>
+                        <div class="content card-body">
+                            <h2 class="ui  header text-centered">$600</h2>
+                            <div class="ui small feed">
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum .
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum .
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum .
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum .
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra content card-body text-centered">
+                            <button class="ui yellow button">select</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui five wide column">
+                    <div class="ui card">
+                        <div class="content card-header">
+                            <div class="header">BASS TROMBONE</div>
+                        </div>
+                        <div class="content card-body">
+                            <h2 class="ui  header text-centered">$900</h2>
+                            <div class="ui small feed">
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum dolor.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra content card-body text-centered">
+                            <button class="ui yellow button">select</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui five wide column">
+                    <div class="ui card">
+                        <div class="content card-header">
+                            <div class="header">VALVE TROMBONE</div>
+                        </div>
+                        <div class="content card-body">
+                            <h2 class="ui  header text-centered">$1200</h2>
+                            <div class="ui small feed">
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Plays similar to a Trumpet
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Great for Jazz Bands
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+                                            Lorem ipsum dolor.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary text-centered">
+
+                                            Lorem ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra content card-body text-centered">
+                            <button class="ui yellow button">select</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <footer class="ui grid footer container">
+                <div class="row">
+                    <ul class="list">
+                        <li>
+                            <a href="">Privacy</a>
+
+                        </li>
+                        <li>
+                            <a href="">Terms</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="row">
+                    <p> Copyright 2016, Original Trombones</p>
+                </div>
+
+            </footer>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
 </html>
