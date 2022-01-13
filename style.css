@@ -1,6 +1,5 @@
 .page-wrapper{
     background-color: #eee;
-    height: 100vh;
 }
 .logo {
     padding: 1rem;
@@ -29,9 +28,54 @@
 }
 .input-email{
    max-width: 15rem !important;
+   
+}
+.space{
+    margin-top: 3rem;
 }
 
 .content-icon {
     height: 2rem;
     width: 2rem;
+}
+.vid{
+    height: 40rem;
+    padding-top: 5rem;
+    padding-left: 25rem  !important;
+}
+.video-cont{
+    width: 40rem;
+}
+.text-centered{
+    text-align: center;
+}
+.card-header{
+    background-color: grey !important;
+    color: black !important;
+    text-align: center !important;
+}
+.card-body{
+    background-color: #eee !important;
+}
+.footer{
+    background-color: rgb(143, 143, 143);    
+    text-align: right !important;
+    display: flex;
+    justify-content: end;
+    
+}
+.list{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.list>li{
+    padding-right: 4rem !important;
+    
+    font-size: 1rem;
+}
+.list>li>a{
+    color: black !important;    
+}
+.footer>.row>ul{
+    list-style-type: none ;
 }
