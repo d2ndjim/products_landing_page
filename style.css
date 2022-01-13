@@ -1,0 +1,30 @@
+.page-wrapper{
+    background-color: #eee;
+    height: 100vh;
+}
+.logo {
+    padding: 1rem;
+    left: 0!important;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    z-index: 5;
+    top: 0;
+    width: 100rem !important;
+    /* padding: 0 5rem !important; */
+    background-color: #eee;
+   
+}
+.nav{
+    margin-left: 15rem !important;
+}
+.section-one{
+    display: flex;
+    margin-top: 4rem !important;
+    justify-content: center;
+}
+.input-email{
+   max-width: 15rem !important;
+}
