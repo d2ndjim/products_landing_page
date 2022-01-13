@@ -9,16 +9,18 @@
 .nav-bar{
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     z-index: 5;
     top: 0;
     width: 100rem !important;
-    /* padding: 0 5rem !important; */
+    padding: 0 5rem !important;
     background-color: #eee;
    
 }
 .nav{
     margin-left: 15rem !important;
+    display: flex;
+    justify-content: space-around;
 }
 .section-one{
     display: flex;
